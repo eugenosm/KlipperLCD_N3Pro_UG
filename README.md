@@ -66,6 +66,7 @@ We connect the cable from the screen to the adapter.  Then we plug the additiona
 
 <p float="left">
   <img src="6P4C.webp" height="400">
+  <img src="IMG_20260929_201401.jpg" height="400">    
 </p>
 
 
