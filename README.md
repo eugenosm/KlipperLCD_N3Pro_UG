@@ -45,7 +45,7 @@ When wiring your screen, you can either wire it directly to one of your Raspberr
         <img src="https://github.com/yayuuu/KlipperLCD/raw/main/img/LCD_conn.png" height="400">
     </p>
 
-### USB to UART Converter
+### Through USB to UART Converter
 Quite simple, just remember to cross RX and TX on the LCD and the USB/UART HW.
 | USB <-> UART HW | LCD               |
 | --------------- | ----------------- |
@@ -59,7 +59,7 @@ Quite simple, just remember to cross RX and TX on the LCD and the USB/UART HW.
     <img src="https://github.com/yayuuu/KlipperLCD/raw/main/img/LCD_conn.png" height="400">
 </p>
 
-### Instead of directly connecting to the screen, we can use the `6p4c RJ11` adapter
+### Also, instead of directly connecting to the screen, we can use the `6p4c RJ11` adapter and additional RJ11 patch cord.
 
 <p float="left">
   <img src="6P4C.webp" height="100">
