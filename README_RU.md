@@ -111,6 +111,22 @@ TxD->RxD
     
     dtoverlay=disable-bt
 
+### Отключение консоли для BTT Pi
+По просьбе `@konstant` добавляю вариант действий для `BTT Pi`
+
+Открываем файл `/boot/BoardEnv.txt` или, если нет, `/boot/armbianEnv.txt`
+Ищем строку:
+
+    console=display
+
+и заменяем ее на:
+
+    console=serial
+
+сохраняем и перегружаемся
+
+> **_Примечание_**: Эту извращенную логику никто не понимает, но console=serial именно освобождает порт. 🤷‍♂
+
 ## Запуск сервиса KlipperLCD 
 * Подключитесь по SSH к вашеиму Raspberry Pi
 

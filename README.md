@@ -102,6 +102,22 @@ A more detailed guide on LCD screen firmware update can be found on the [Elegoo 
     
     dtoverlay=disable-bt
 
+### Disable the console for BTT Pi
+By the request of `@konstant`, I’m adding a a short instruction for `BTT Pi`.
+
+Open the file `/boot/BoardEnv.txt`, or, if it doesn’t exist, `/boot/armbianEnv.txt`.
+Find this option:
+
+    console=display
+
+and replace it with:
+
+    console=serial
+
+save the changes and reboot.
+
+> **_Note: No one understands this twisted logic, but `console=serial` actually frees up the port. 🤷‍♂
+
 ## Run the KlipperLCD service
 * SSH into your Raspberry Pi
 
