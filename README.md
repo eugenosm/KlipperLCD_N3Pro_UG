@@ -1,4 +1,4 @@
-# KlipperLCD (for Elegoo Neptune 3 Pro LCD screen)
+# KlipperLCD (for Elegoo Neptune 3 Pro LCD screen) Installation Guide
 
 ([Русский вариант инструкции](README_RU.md))
 
@@ -7,7 +7,7 @@ Want to run Klipper on your Neptune 3 Pro? And still want to be able to use your
 By 
 [joakimtoe](https://github.com/joakimtoe/KlipperLCD)  
 And later by
-[yayuuu](https://github.com/yayuuu/KlipperLCD)
+[yayuuu](https://github.com/yayuuu/KlipperLCD) _(you should take a files here)_
 
 Take a look at this python service for the Elegoo Neptune 3 Pro LCD! Running together with Klipper3d and Moonraker!
 
