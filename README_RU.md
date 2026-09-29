@@ -1,4 +1,4 @@
-# KlipperLCD (Адаптация экрана принтера Elegoo Neptune 3 Pro)
+# KlipperLCD (Адаптация экрана принтера Elegoo Neptune 3 Pro). Инструкция по установке.
 
 ([English version](README.md))
 
@@ -6,7 +6,7 @@
 
 [joakimtoe](https://github.com/joakimtoe/KlipperLCD)  
 а позже  
-[yayuuu](https://github.com/yayuuu/KlipperLCD)
+[yayuuu](https://github.com/yayuuu/KlipperLCD) (Файлы, если что, брать тут)
 
 Предлагают сервис на python для ЖК-дисплея Elegoo Neptune 3 Pro! Работает совместно с Klipper3d и Moonraker!
 
