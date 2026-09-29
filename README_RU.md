@@ -45,7 +45,7 @@
         <img src="https://github.com/yayuuu/KlipperLCD/raw/main/img/LCD_conn.png" height="400">
     </p>
 
-### USB to UART Converter
+### Через USB->UART Адаптер
 Quite simple, just remember to cross RX and TX on the LCD and the USB/UART HW.
 | USB <-> UART HW | LCD               |
 | --------------- | ----------------- |
@@ -60,7 +60,7 @@ Quite simple, just remember to cross RX and TX on the LCD and the USB/UART HW.
     <img src="https://github.com/yayuuu/KlipperLCD/raw/main/img/LCD_conn.png" height="400">
 </p>
 
-### Вместо прямого подключения к экрану используем переходник `6р4с RJ11`
+### Можно, вместо прямого подключения к экрану, использовать переходник `6р4с RJ11` и дополнительный провод с RJ11
 
 <p float="left">
   <img src="6P4C.webp" height="100">
